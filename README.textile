@@ -1,0 +1,13 @@
+h1. Keyhole
+
+Keyhole is a library that allows you to create interactive tutorials on a web
+page using a script in JS. Its main purpose is to leverage the Raphael.js
+library to allow you to focus attention on a particular element on the page.
+
+More to come.
+
+h2. Deploying
+
+A version of raphael.js is included here, but it is the un-minified version and
+is intended to simplify development. In production, consider deploying
+Raphael.js separately and minified.
