@@ -13,10 +13,10 @@
     <div id="bam" style="position: absolute; bottom: 50px; right: 150px; width: 100px; height: 300px; background-color: red;">Booyan</div>
 
     <script type="text/javascript">
-      var kh = keyhole();
-      kh.focus(document.getElementById('booyan'));
-
-      setTimeout(function() { kh.focus(document.getElementById('bam')); }, 1000);
+      keyhole()
+        .focus(document.getElementById('booyan'))
+        .wait(1000)
+        .focus(document.getElementById('bam'));
     </script>
   </body>
 </html>
