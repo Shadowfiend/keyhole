@@ -8,11 +8,15 @@
   </head>
 
   <body>
-    <div id="booyan">Booyan</div>
+    <div id="booyan" style="position: absolute; top: 50px; left: 150px; width: 200px; height: 100px; background-color: green;">Booyan</div>
 
-    <scrypt type="text/javascript">
-      keyhole()
-        .focus(document.getElementById('booyan'));
+    <div id="bam" style="position: absolute; bottom: 50px; right: 150px; width: 200px; height: 100px; background-color: red;">Booyan</div>
+
+    <script type="text/javascript">
+      var kh = keyhole();
+      kh.focus(document.getElementById('booyan'));
+
+      setTimeout(function() { kh.focus(document.getElementById('bam')); }, 1000);
     </script>
   </body>
 </html>
