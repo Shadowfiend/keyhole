@@ -11,3 +11,16 @@ h2. Deploying
 A version of raphael.js is included here, but it is the un-minified version and
 is intended to simplify development. In production, consider deploying
 Raphael.js separately and minified.
+
+h2. License
+
+Keyhole is provided under the terms of the MIT License. See the LICENSE file in
+this same directory.
+
+h2. Author
+
+This plugin is copyright me, Antonio Salazar Cardozo, and licensed under the
+terms of the MIT license. No warranties are made, express or implied. See the
+LICENSE file in this same directory for more details.
+
+I have a rather sporadically updated blog at http://shadowfiend.posterous.com/
